@@ -1,0 +1,30 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #111;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    outline: none;
+  }
+  
+  .header input:focus {
+    border: 1px solid #e50914;
+  }
+  
